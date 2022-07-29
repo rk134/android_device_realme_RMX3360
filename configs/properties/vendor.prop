@@ -1,5 +1,7 @@
 # Bluetooth
 bluetooth.device.default_name=Realme GT Master Edition
+persist.vendor.btstack.enable.twsplus=true
+persist.vendor.btstack.enable.twsplussho=true
 
 # Graphics
 debug.sf.frame_rate_multiple_threshold=60
