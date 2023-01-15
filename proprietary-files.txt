@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from Realme GT Master Edition (RMX3363_11_C.12).
+## are from Realme GT Master Edition (RMX3360_11_F.02).
 
 # ACDB
 odm/etc/acdbdata/Bluetooth_cal.acdb
@@ -135,12 +135,13 @@ odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt
 odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt
 
 # Bluetooth Firmware
-odm/etc/bt/msnv11_ch1.bin
+odm/etc/bt/msnv11.bin
 
 # Camera
 odm/etc/camera/ancsegbase/anc_cl_kernel.cache
 odm/etc/camera/ancsegbase/model.data
 odm/etc/camera/config/camera_unit_config
+odm/etc/camera/config/camera_unit_feature_config.protobuf
 odm/etc/camera/config/hi846
 odm/etc/camera/config/imx615
 odm/etc/camera/config/oplus_camera_algo_switch_config
@@ -290,6 +291,7 @@ odm/lib64/libop-ai-beauty-faceretouch-cn.so
 odm/lib64/liboplus_service.so
 odm/lib64/liboplusvppfilter.so
 odm/lib64/libormshalclient.so
+odm/lib64/libosensehalclient.so
 odm/lib64/libosie_process.so
 odm/lib64/libosie_stub.so
 odm/lib64/libsnpe_dsp_domains_v2.so
@@ -304,7 +306,7 @@ odm/lib64/libtriplecam_optical_zoom_control.so
 odm/lib64/libtriplecam_video_optical_zoom.so
 odm/lib64/libwatermark_photo.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
-vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode
+odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
 vendor/lib64/camera/components/com.arcsoft.node.eisv2.so
 vendor/lib64/camera/components/com.arcsoft.node.smooth_transition.so
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
@@ -364,7 +366,7 @@ vendor/lib64/camera/arcsoft_dc_calibration_u.bin
 vendor/lib64/camera/arcsoft_dc_calibration_w.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/hw/camera.qcom.so
-vendor/lib64/hw/com.qti.chi.override.so|26ca45c094105c5118ea33555dbedefa8d0d22c1|c93087d3b8fdc1b29d704c130ce7c1487d339b66
+vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/com.qti.chiusecaseselector.so
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
@@ -408,7 +410,6 @@ vendor/lib64/libFace3D_hlos.so
 vendor/lib64/libQ6MSFR_manager_stub.so
 vendor/lib64/libSonyIMX471RmscLibrary.so
 vendor/lib64/libaidenoiser.so
-vendor/lib64/libaidenoiserv2.so
 vendor/lib64/libarcsoft_dual_sat.so
 vendor/lib64/libarcsoft_dual_zoomtranslator.so
 vendor/lib64/libarcsoft_eis_wrapper.so
@@ -503,6 +504,9 @@ vendor/firmware/yupik_ipa_fws.mdt
 odm/firmware/tp/21603/FW_FT3518_SAMSUNG.img
 odm/firmware/tp/21603/FW_FT3518_SAMSUNG_FAE.img
 odm/firmware/tp/21603/LIMIT_FT3518_SAMSUNG.img
+odm/firmware/tp/21643/FW_NF_ILI7807S_DSJM_FAE.img
+odm/firmware/tp/21643/FW_NF_ILI7807S_DSJM.img
+odm/firmware/tp/21643/LIMIT_NF_ILI7807S_DSJM.img
 
 # Firmware (VPU)
 vendor/firmware/vpu20_1v.b01
@@ -600,52 +604,6 @@ odm/etc/sensor/config/kodiak_mmc5603x_0.json
 odm/etc/sensor/config/kodiak_mmc56x3x_0.json
 odm/etc/sensor/sensor_config.json
 odm/etc/sensor.cfg
-vendor/etc/sensors/config/faroe_ak991x_0.json
-vendor/etc/sensors/config/faroe_bu52053nvx_0.json
-vendor/etc/sensors/config/faroe_default_sensors.json
-vendor/etc/sensors/config/faroe_dynamic_sensors.json
-vendor/etc/sensors/config/faroe_idp_ak991x_0.json
-vendor/etc/sensors/config/faroe_idp_lsm6dst_0.json
-vendor/etc/sensors/config/faroe_idp_lsm6dst_1.json
-vendor/etc/sensors/config/faroe_irq.json
-vendor/etc/sensors/config/faroe_lps22hh_0.json
-vendor/etc/sensors/config/faroe_lsm6dst_0.json
-vendor/etc/sensors/config/faroe_lsm6dst_1.json
-vendor/etc/sensors/config/faroe_power_0.json
-vendor/etc/sensors/config/faroe_qrd_ak991x_0.json
-vendor/etc/sensors/config/faroe_qrd_lsm6dst_0.json
-vendor/etc/sensors/config/faroe_qrd_sx932x_0.json
-vendor/etc/sensors/config/faroe_qrd_tmd3702_0.json
-vendor/etc/sensors/config/faroe_sx932x_0.json
-vendor/etc/sensors/config/faroe_tmd3702_0.json
-vendor/etc/sensors/config/faroe_vertigo_ak991x_0.json
-vendor/etc/sensors/config/faroe_vertigo_lsm6dst_0.json
-vendor/etc/sensors/config/faroe_vertigo_lsm6dst_1.json
-vendor/etc/sensors/config/kodiak_bu52053nvx_0.json
-vendor/etc/sensors/config/kodiak_default_sensors.json
-vendor/etc/sensors/config/kodiak_dynamic_sensors.json
-vendor/etc/sensors/config/kodiak_idp_ak991x_0.json
-vendor/etc/sensors/config/kodiak_idp_lsm6dst_0.json
-vendor/etc/sensors/config/kodiak_idp_lsm6dst_1.json
-vendor/etc/sensors/config/kodiak_irq.json
-vendor/etc/sensors/config/kodiak_lps22hh_0.json
-vendor/etc/sensors/config/kodiak_lsm6dst_0.json
-vendor/etc/sensors/config/kodiak_lsm6dst_1.json
-vendor/etc/sensors/config/kodiak_power_0.json
-vendor/etc/sensors/config/kodiak_qrd_ak991x_0.json
-vendor/etc/sensors/config/kodiak_qrd_ak991x_1.json
-vendor/etc/sensors/config/kodiak_qrd_lsm6dst_0.json
-vendor/etc/sensors/config/kodiak_qrd_sx932x_0.json
-vendor/etc/sensors/config/kodiak_qrd_tmd3702_0.json
-vendor/etc/sensors/config/kodiak_sx932x_0.json
-vendor/etc/sensors/config/kodiak_tmd3702_0.json
-vendor/etc/sensors/config/kodiak_vertigo_ak991x_0.json
-vendor/etc/sensors/config/kodiak_vertigo_lsm6dst_0.json
-vendor/etc/sensors/config/kodiak_vertigo_lsm6dst_1.json
-vendor/etc/sensors/config/lahaina_hhg_ak991x_0.json
-vendor/etc/sensors/config/lahaina_hhg_lsm6dst_0.json
-vendor/etc/sensors/config/lahaina_hhg_sx9302x_0.json
-vendor/etc/sensors/config/lahaina_hhg_tmd3702_0.json
 
 # WiFi
 odm/etc/wifi/bdwlan.elf
