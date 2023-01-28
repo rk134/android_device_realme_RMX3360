@@ -12,15 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/RMX3360/device.mk)
 
 # Inherit some common Statix stuff.
-$(call inherit-product, vendor/statix/config/common.mk)
-$(call inherit-product, vendor/statix/config/gsm.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Statix build configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 ENABLE_GAMETOOLS := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := statix_RMX3360
+PRODUCT_NAME := aosp_RMX3360
 PRODUCT_DEVICE := RMX3360
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme

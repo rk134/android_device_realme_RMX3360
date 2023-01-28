@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/statix_RMX3360.mk
+    $(LOCAL_DIR)/aosp_RMX3360.mk
 
 COMMON_LUNCH_CHOICES := \
-    statix_RMX3360-user \
-    statix_RMX3360-userdebug \
-    statix_RMX3360-eng
+    aosp_RMX3360-user \
+    aosp_RMX3360-userdebug \
+    aosp_RMX3360-eng
