@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from Realme GT Master Edition (RMX3360_11_F.02).
+## are from Realme GT Master Edition (RMX3360_11_F.03).
 
 # ACDB
 odm/etc/acdbdata/Bluetooth_cal.acdb
