@@ -549,6 +549,9 @@
     <!-- Whether devices supports in-display fingerprint when screen is off -->
     <bool name="config_supportsScreenOffUdfps">true</bool>
 
+    <!-- Fingerprint from a certified device against current platform SPL level -->
+    <string name="config_certifiedFingerprint" translatable="false">realme/RMX3360/RE54ABL1:13/TP1A.220905.001/R.c87188-d1f_1b5:user/release-keys</string>
+
      <!-- Fingerprint from stock ROM -->
-    <string name="config_stockFingerprint" translatable="false">realme/RMX3360/RE54ABL1:12/RKQ1.210503.001/R.202203150246:user/release-keys</string>
+    <string name="config_stockFingerprint" translatable="false">realme/RMX3360/RE54ABL1:13/TP1A.220905.001/R.c87188-d1f_1b5:user/release-keys</string>
 </resources>
