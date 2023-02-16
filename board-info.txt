@@ -1,1 +1,1 @@
-require board=RMX3360|RMX3363|yupik|lahaina
+require board=RMX3360|RMX3363|lunaa|yupik|lahaina

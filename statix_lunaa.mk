@@ -9,7 +9,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from device makefile
-$(call inherit-product, device/realme/RMX3360/device.mk)
+$(call inherit-product, device/realme/lunaa/device.mk)
 
 # Inherit some common Statix stuff.
 $(call inherit-product, vendor/statix/config/common.mk)
@@ -20,19 +20,17 @@ TARGET_BOOT_ANIMATION_RES := 1080
 ENABLE_GAMETOOLS := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := statix_RMX3360
-PRODUCT_DEVICE := RMX3360
+PRODUCT_NAME := statix_lunaa
+PRODUCT_DEVICE := lunaa
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMX3360
+PRODUCT_MODEL := lunaa
 
 PRODUCT_SYSTEM_NAME := RMX3360
 PRODUCT_SYSTEM_DEVICE := RE54ABL1
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="RMX3360-user 12 RKQ1.210503.001 R.202203150246 release-keys" \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
-
-BUILD_FINGERPRINT := realme/RMX3360/RE54ABL1:12/RKQ1.210503.001/R.202203150246:user/release-keys
+    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE)
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo

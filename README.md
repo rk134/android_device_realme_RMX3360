@@ -3,8 +3,9 @@
 The realme GT ME 5G, (codenamed RMX3360/RMX3363) is a mid-range smartphone from realme.  
 It was announced and released in July 2021.  
 
-> 'RMX3363' is Realme GT Master.  
-> 'RMX3360' is Realme GT Master Edition.  
+> 'RMX3363' is Realme GT Master (EU/EEA/GDPR).  
+> 'RMX3360' is Realme GT Master Edition (IN/etc.).  
+> 'lunaa' is the internal codename that covers both of these devices.
 
 ## Device specifications
 

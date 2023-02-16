@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/statix_RMX3360.mk
+    $(LOCAL_DIR)/statix_lunaa.mk
 
 COMMON_LUNCH_CHOICES := \
-    statix_RMX3360-user \
-    statix_RMX3360-userdebug \
-    statix_RMX3360-eng
+    statix_lunaa-user \
+    statix_lunaa-userdebug \
+    statix_lunaa-eng

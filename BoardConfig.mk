@@ -7,7 +7,7 @@
 # Include the common OEM chipset BoardConfig.
 include device/realme/sm8350-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/realme/RMX3360
+DEVICE_PATH := device/realme/lunaa
 
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
@@ -16,7 +16,7 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 TARGET_SCREEN_DENSITY := 420
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := RMX3360,RMX3363
+TARGET_OTA_ASSERT_DEVICE := RMX3360,RMX3363,lunaa,RE54ABL1
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/properties/vendor.prop
@@ -25,4 +25,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/properties/vendor.prop
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
-include vendor/realme/RMX3360/BoardConfigVendor.mk
+include vendor/realme/lunaa/BoardConfigVendor.mk
